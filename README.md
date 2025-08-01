@@ -42,6 +42,26 @@ Follow these instructions to get a copy of the project up and running on your lo
 -   [Node.js](https://nodejs.org/) (v18 or later recommended)
 -   [PostgreSQL](https://www.postgresql.org/download/)
 -   A [Gmail Account](https://mail.google.com/) with 2-Factor Authentication and an App Password enabled.
+## 📸 Screenshots
+
+### Login Page  
+![Login Page](./Screenshot%202025-08-01%20171234.png)
+
+### Signup Page  
+![Signup Page](./Screenshot%202025-08-01%20171245.png)
+
+### Forgot Password Page  
+![Forgot Password Page](./Screenshot%202025-08-01%20171256.png)
+
+### OTP Verification Page  
+![OTP Verification Page](./Screenshot%202025-08-01%20171309.png)
+
+### Dashboard Page (Part 1)  
+![Dashboard Part 1](./Screenshot%202025-08-01%20171339.png)
+
+### Dashboard Page (Part 2 - Logout Button)  
+![Dashboard Part 2](./Screenshot%202025-08-01%20171405.png)
+
 
 ### 1. Clone the Repository
 
@@ -108,4 +128,5 @@ POST	/api/signup	Create a new user account.
 POST	/api/login	Log in a user and receive a JWT.
 POST	/api/forgot-password	Request a password reset OTP via email.
 POST	/api/verify-otp	Verify the OTP and set a new password.
+
 
